@@ -6,8 +6,8 @@ function osInfo(data) {
 }
 
 osInfo({
-    Name: os.hostname(),
-    Platform: os.platform(),
-    Architecture: os.arch(),
-    Release: os.release(),
+    name: os.hostname(),
+    platform: os.platform(),
+    architecture: os.arch(),
+    release: os.release(),
 });
